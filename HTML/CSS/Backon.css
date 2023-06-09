@@ -1,0 +1,20 @@
+h1 {
+    color: red;
+    font-size: 100px;
+}
+
+img:hover {
+    background-color: burlywood;
+}
+/*                Class Selectors                            */
+.bacon {
+    background-color: green;
+}
+
+.broccoli {
+    background-color: red;
+}
+/*                Id Selectors                               */
+#heading1 {
+    color: blueviolet;
+} 
