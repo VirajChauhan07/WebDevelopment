@@ -1,18 +1,7 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
 
-const Modal = ({ modalContent, closeModal }) => {
-  useEffect(() => {
-    setTimeout(() => {
-      closeModal()
-    }, 3000)
-  })
-  return (
-    <>
-      <div className='modal'>
-        <p>{modalContent}</p>
-      </div>
-    </>
-  )
-}
+const Modal = () => {
+  return <div>i'm modal</div>;
+};
 
-export default Modal
+export default Modal;
